@@ -1,0 +1,74 @@
+/* Fade In */
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity:0;
+    }
+  to {
+    opacity:1;
+    }
+  }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity:0;
+    }
+  to {
+    opacity:1;
+    }
+  }
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+    }
+  to {
+    opacity:1;
+    }
+  }
+
+.fade-in {
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+  -webkit-animation-duration:.5s;
+  -moz-animation-duration:.5s;
+  animation-duration:.5s;
+}
+
+.fade-in-first {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.fade-in-second {
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+/* SCROLL DOWN */
+
+@-webkit-keyframes mouse-animate {
+  0% {
+    opacity:0;
+    top: 50%
+    }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity:0;
+    top: 20%;
+    }
+  }
+
+  .mouse-animate {
+    animation-name: mouse-animate;
+    animation-duration: 1.75s;
+    animation-iteration-count: infinite;

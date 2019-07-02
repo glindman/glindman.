@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size:1.2em;
+  }
+  h3 {
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+  h5 {
+    font-size: .8em;
+  }
+  p {
+    font-size: .9em;
+  }
+  .large-section {
+    height: 55em;
+  }
+  .height-xl {
+    height: 80%;
+  }
+  #when-where-wear{
+    height: 80em;
+  }
+  #gofund  {
+    height: 70em;
+  }
+  .small-section {
+    height: 35em;
+  }
+  .v-center {
+    text-align: center;
+    top: 10%;
+    transform: translateY(0);
+  }
+  .m-top-res {
+    margin-top: 20px;
+  }
+  .footer-resp {
+    height: 50em;
+  }
+  .footer-item-height {
+    height: 12em;
+  }
+  .social {
+    display: none;
+  }
+  .right-justify {
+    text-align: center;
+  }
+  .scroll-down {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+
+  #when-where-wear{
+    height: 80em;
+  }
+  #gofund  {
+    height: 70em;
+  }
+  .small-section {
+    height: 35em;
+  }
+  .v-center {
+    text-align: center;
+    top: 10%;
+    transform: translateY(0);
+  }
+  .m-top-res {
+    margin-top: 20px;
+  }
+  .footer-resp {
+    height: 50em;
+  }
+  .footer-item-height {
+    height: 12em;
+  }
+  .social {
+    display: none;
+  }
+  .right-justify {
+    text-align: center;
+  }
+  .scroll-down {
+    display: none;
+  }
+  .img-right {
+    height: 30em;
+    width: auto;
+  }
+}
